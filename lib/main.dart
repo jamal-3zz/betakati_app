@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
                     color: const Color.fromARGB(255, 10, 0, 66),
                   ),
                   title: Text(
-                    'jamal.l.j.ezz@gmail.com',
+                    'jamal.k.j.ezz@gmail.com',
                     style: TextStyle(
                       color: Colors.black87,
                       fontFamily: 'Almarai',
@@ -99,6 +99,7 @@ class MyApp extends StatelessWidget {
                       Icons.add_location,
                       color: const Color.fromARGB(255, 10, 0, 66),
                     ),
+                    SizedBox(width: 10.0),
                     Text(
                       'Amman,Jordan',
                       style: TextStyle(
