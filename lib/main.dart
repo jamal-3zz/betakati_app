@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
-                radius: 55.0,
+                radius: 60.0,
                 backgroundImage: AssetImage('images/1.png'),
               ),
               Text(
@@ -89,23 +89,26 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               SizedBox(width: 10.00, height: 10.00),
-              /* link*/ Card(
+              /* link*/ Container(
                 color: Colors.white,
-                margin: EdgeInsets.all(7.0),
-                child: ListTile(
-                  leading: Icon(
-                    Icons.screen_search_desktop_outlined,
-                    color: const Color.fromARGB(255, 10, 0, 66),
-                  ),
-                  title: Text(
-                    'Jamal_3zz',
-                    style: TextStyle(
-                      color: Colors.black87,
-                      fontFamily: 'Handjet',
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
+                margin: EdgeInsets.all(10.0),
+                padding: EdgeInsets.all(10.0),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.add_location,
+                      color: const Color.fromARGB(255, 10, 0, 66),
                     ),
-                  ),
+                    Text(
+                      'Amman,Jordan',
+                      style: TextStyle(
+                        color: Colors.black87,
+                        fontFamily: 'Handjet',
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],
